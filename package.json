@@ -1,0 +1,53 @@
+{
+  "name": "@bluebase/plugin-vector-icons",
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "src",
+        "bluebase/storybook-native",
+        "src",
+        "bluebase/storybook-native",
+        "src",
+        "bluebase/storybook-native",
+        "src",
+        "bluebase/storybook-native",
+        "src",
+        "bluebase/storybook-native",
+        "src",
+        "bluebase/storybook-native"
+      ],
+      "pattern": "**/*.stories.tsx",
+      "outputFile": "bluebase/storybook-native/storybook/storyLoader.js"
+    }
+  },
+  "scripts": {
+    "storybook-native:start": "bluebase storybook-native:start",
+    "storybook:start": "bluebase storybook:start"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^9.0.0",
+    "@types/": "expo/vector-icons",
+    "@types/expo__vector-icons": "^9.0.1",
+    "deepmerge": "^3.2.0",
+    "react": "^16",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz",
+    "react-native-vector-icons": "^6.3.0"
+  },
+  "devDependencies": {
+    "@bluebase/cli-essentials": "^0.0.2",
+    "@bluebase/core": "^4.0.0-aplha.10",
+    "@bluebase/storybook-addon": "^3.0.0",
+    "@blueeast/tslint-config-blueeast": "^0.7.0",
+    "@storybook/addon-actions": "^5.0.0",
+    "@storybook/addon-links": "^5.0.0",
+    "@storybook/react": "^5.0.0",
+    "@storybook/react-native": "^4.1.13",
+    "@types/deepmerge": "^2.2.0",
+    "@types/react": "^16.8.7",
+    "babel-loader": "^8.0.4",
+    "expo": "^31.0.0",
+    "react-native-storybook-loader": "^1.8.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "typescript": "^3"
+  }
+}
