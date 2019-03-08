@@ -22,7 +22,8 @@
   },
   "scripts": {
     "storybook-native:start": "bluebase storybook-native:start",
-    "storybook:start": "bluebase storybook:start"
+    "storybook:start": "bluebase storybook:start",
+    "build": "tsc"
   },
   "dependencies": {
     "@expo/vector-icons": "^9.0.0",
@@ -48,6 +49,6 @@
     "expo": "^31.0.0",
     "react-native-storybook-loader": "^1.8.0",
     "react-native-typescript-transformer": "^1.2.10",
-    "typescript": "^3"
+    "typescript": "^3.3.3333"
   }
 }
