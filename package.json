@@ -9,7 +9,6 @@
   "repository": "https://github.com/BlueBaseJS/plugin-vector-icons",
   "license": "MIT",
   "keywords": [],
-  "config": {},
   "remarkConfig": {
     "plugins": [
       "remark-preset-lint-recommended"
@@ -22,7 +21,18 @@
       "path": "dist/**/*.js"
     }
   ],
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "src",
+        "bluebase/storybook-native"
+      ],
+      "pattern": "**/*.stories.tsx",
+      "outputFile": "bluebase/storybook-native/storybook/storyLoader.js"
+    }
+  },
   "scripts": {
+    "storybook-native:start": "bluebase storybook-native:start",
     "start": "yarn run storybook",
     "clean": "rimraf coverage dist tmp",
     "watch": "tsc -w -p tsconfig.json",
@@ -77,6 +87,7 @@
   },
   "dependencies": {
     "deepmerge": "^3.2.0",
+    "expo": "^32.0.0",
     "react-native": "^0.57.8",
     "react-native-vector-icons": "^6.4.2",
     "tslib": "^1.9.3"
@@ -86,16 +97,18 @@
     "@babel/core": "^7.3.4",
     "@bluebase/cli-essentials": "^0.0.4",
     "@bluebase/code-standards": "^1.0.2",
-    "@bluebase/core": "^4.0.0-aplha.14",
+    "@bluebase/core": "^4.0.0-aplha.15",
     "@bluebase/storybook-addon": "^3.0.0",
     "@blueeast/tslint-config-blueeast": "^0.7.0",
-    "@storybook/addon-actions": "^5.0.6",
-    "@storybook/addon-links": "^5.0.6",
-    "@storybook/react": "^5.0.6",
+    "@storybook/addon-actions": "^4.1.4",
+    "@storybook/addon-links": "^4.1.4",
+    "@storybook/react": "^4.1.4",
+    "@storybook/react-native": "^4.1.4",
     "@types/deepmerge": "^2.2.0",
     "@types/enzyme": "^3.9.0",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/enzyme-async-helpers": "^0.9.1",
+    "@types/expo": "^32.0.10",
     "@types/jest": "^24.0.9",
     "@types/react": "^16.8.7",
     "@types/react-dom": "^16.8.2",
@@ -108,7 +121,6 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.3.1",
     "babel-loader": "^8.0.5",
-    "babel-preset-expo": "^5.0.0",
     "codacy-coverage": "^3.4.0",
     "codecov": "^3.2.0",
     "commitizen": "^3.0.7",
@@ -125,6 +137,7 @@
     "prettier": "^1.16.4",
     "react": "^16",
     "react-dom": "^16.8.4",
+    "react-native-storybook-loader": "^1.8.0",
     "react-native-typescript-transformer": "^1.2.12",
     "react-test-renderer": "^16.8.4",
     "remark-cli": "^6.0.1",

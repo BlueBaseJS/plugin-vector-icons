@@ -1,5 +1,5 @@
 module.exports = {
   "presets": [
-    "@bluebase/code-standards/babel.config"
+    "@bluebase/code-standards/babel.config",
   ]
 };
