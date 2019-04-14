@@ -1,9 +1,9 @@
 import { BlueBase } from '@bluebase/core';
-import Plugin from '../index';
+import { MaterialCommunityIcons } from '../../';
 
 test('Plugin should be correctly registered', async () => {
 	const BB = new BlueBase();
-	await BB.Plugins.register(Plugin);
+	await BB.Plugins.register(MaterialCommunityIcons);
 	await BB.boot();
 
 	expect(BB.Plugins.has('vector-icons-material-community-icons')).toBe(true);
