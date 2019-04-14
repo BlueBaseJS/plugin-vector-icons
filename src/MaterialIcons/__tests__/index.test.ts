@@ -5,5 +5,7 @@ test('Plugin should be correctly registered', async () => {
 	const BB = new BlueBase();
 	await BB.Plugins.register(Plugin);
 
-	expect(BB.Plugins.has('@bluebase/plugin-vector-icons')).toBeTruthy();
+	expect(BB.Plugins.has('@bluebase/plugin-vector-icons')).toBe(true);
+	expect(BB.Fonts.has('Material Icons')).toBe(true);
+	expect(BB.Components.has('Icon')).toBe(true);
 });

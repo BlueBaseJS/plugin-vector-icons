@@ -1087,10 +1087,10 @@
     tslint-react "^3.6.0"
     typescript "^3.1.4"
 
-"@bluebase/core@^4.0.0-aplha.15":
-  version "4.0.0-aplha.15"
-  resolved "https://registry.yarnpkg.com/@bluebase/core/-/core-4.0.0-aplha.15.tgz#c713e812efed0cc57aa92df337b7dc72bd328152"
-  integrity sha512-ydxdueNI74vQLi9iR+FgvjGbHgPFlUm3nLgqIQT327vvnjnMzxA2758mZslBs7LDCasumKmAdLfbqjJ/4PPppQ==
+"@bluebase/core@^4.0.0-aplha.16":
+  version "4.0.0-aplha.16"
+  resolved "https://registry.yarnpkg.com/@bluebase/core/-/core-4.0.0-aplha.16.tgz#4a5aac96af0e510846632c5e7a2e5c6b333251a1"
+  integrity sha512-nDLVOH5++RtYNtnW9xRO0WygpjARwUnJm6VHUHYNH5da7yfhK2Y11Dfe4jouVDHjJiFLf1DUi1N18c9nWJELFw==
   dependencies:
     deepmerge "^3.2.0"
     hoist-non-react-statics "^3.3.0"

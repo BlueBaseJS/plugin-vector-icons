@@ -1,5 +1,4 @@
-// import './setup';
-import Icon from './components';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import { createPlugin } from '@bluebase/core';
 
 export default createPlugin({
@@ -11,13 +10,7 @@ export default createPlugin({
 	components: { Icon },
 
 	fonts: {
-		'MaterialIcons': require('react-native-vector-icons/Fonts/MaterialIcons.ttf')
+		'Material Icons': require('react-native-vector-icons/Fonts/MaterialIcons.ttf')
 	},
 
-	// filters: {
-	// 	'bluebase.boot.end': (bootOptions: BootOptions, _ctx: any, BB: BlueBase) => {
-	// 		BB.Components.addHocs('BlueBaseContent', withFont);
-	// 		return bootOptions;
-	// 	},
-	// },
 });
