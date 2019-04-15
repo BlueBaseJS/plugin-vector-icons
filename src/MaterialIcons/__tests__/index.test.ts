@@ -7,6 +7,6 @@ test('Plugin should be correctly registered', async () => {
 	await BB.boot();
 
 	expect(BB.Plugins.has('vector-icons-material-icons')).toBe(true);
-	expect(BB.Fonts.has('Material Icons')).toBe(true);
+	expect(BB.Fonts.has('MaterialIcons')).toBe(true);
 	expect(BB.Components.has('Icon')).toBe(true);
 });
