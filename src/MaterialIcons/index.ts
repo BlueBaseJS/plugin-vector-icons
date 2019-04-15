@@ -10,6 +10,6 @@ export default createPlugin({
 	components: { Icon },
 
 	fonts: {
-		'Material Icons': require('react-native-vector-icons/Fonts/MaterialIcons.ttf'),
+		'MaterialIcons': require('react-native-vector-icons/Fonts/MaterialIcons.ttf'),
 	},
 });

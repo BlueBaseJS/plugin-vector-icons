@@ -2,7 +2,7 @@
   "name": "@bluebase/plugin-vector-icons",
   "description": "A BlueBase port of the React Native Vector Icons project",
   "author": "BlueEast Team <code@blueeast.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.js",
@@ -87,8 +87,6 @@
   },
   "dependencies": {
     "deepmerge": "^3.2.0",
-    "expo": "^32.0.0",
-    "react-native": "^0.57.8",
     "react-native-vector-icons": "^6.4.2",
     "tslib": "^1.9.3"
   },
