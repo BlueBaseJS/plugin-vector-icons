@@ -1,5 +1,4 @@
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-// import React from 'react';
 import { createPlugin } from '@bluebase/core';
 export default createPlugin({
 	description: 'A BlueBase port of the React Native Vector Icons project',
@@ -8,7 +7,6 @@ export default createPlugin({
 	version: '1.0.0',
 
 	components: {
-		// 'HomeScreen': () => <Icon name="delete" size={100} color="green" />,
 		Icon,
 	},
 
