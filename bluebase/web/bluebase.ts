@@ -7,16 +7,6 @@ import deepmerge from 'deepmerge';
  * We keep all the universal (cross platform) configs in
  * the common folder, and extend them here.
  */
-const bootOptions: Partial<BootOptions> = {
-
-	config: {
-
-		wallpaper: {
-			backgroundColor: 'white',
-			resizeMode: 'cover',
-			source: require('./../../assets/web/wallpaper.png'),
-		},
-	}
-};
+const bootOptions: Partial<BootOptions> = {};
 
 export default deepmerge(commonBootOptions, bootOptions);
