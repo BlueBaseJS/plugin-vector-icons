@@ -1,5 +1,5 @@
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import React from 'react';
+// import React from 'react';
 import { createPlugin } from '@bluebase/core';
 export default createPlugin({
 	description: 'A BlueBase port of the React Native Vector Icons project',
