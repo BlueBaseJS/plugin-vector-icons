@@ -11,7 +11,10 @@ export default createPlugin({
 	},
 
 	fonts: {
-		'MaterialCommunity Icons': require('react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf'),
+		// react native
+		'Material Design Icons': require('react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf'),
+
+		// web
 		MaterialCommunityIcons: require('react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf'),
 	},
 });
