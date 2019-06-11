@@ -1,12 +1,13 @@
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import MaterialCommunityIcons from 'react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf';
 import { createPlugin } from '@bluebase/core';
 
-// TODO: This is a temp fix for:
-// https://github.com/react-native-community/cli/issues/228
-// tslint:disable-next-line: no-var-requires
-const Font = require('../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf');
+// // TODO: This is a temp fix for:
+// // https://github.com/react-native-community/cli/issues/228
+// // tslint:disable-next-line: no-var-requires
+// const Font = require('../../MaterialCommunityIcons.ttf');
 
-// const Font = require('react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf');
+// // const Font = require('react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf');
 
 export default createPlugin({
 	description: 'A BlueBase port of the React Native Vector Icons project',
@@ -20,9 +21,9 @@ export default createPlugin({
 
 	fonts: {
 		// react native
-		'Material Design Icons': Font,
+		'Material Design Icons': MaterialCommunityIcons,
 
 		// web
-		MaterialCommunityIcons: Font,
+		MaterialCommunityIcons,
 	},
 });
