@@ -17,7 +17,10 @@ export default createPlugin({
 	components: { Icon },
 
 	fonts: {
+		// Native
 		'Material Icons': Font,
+
+		// Web
 		MaterialIcons: Font,
 	},
 });
