@@ -1,6 +1,13 @@
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { createPlugin } from '@bluebase/core';
 
+// TODO: This is a temp fix for:
+// https://github.com/react-native-community/cli/issues/228
+// tslint:disable-next-line: no-var-requires
+const Font = require('../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf');
+
+// const Font = require('react-native-vector-icons/Fonts/MaterialIcons.ttf');
+
 export default createPlugin({
 	description: 'A BlueBase port of the React Native Vector Icons project',
 	key: 'vector-icons-material-icons',
@@ -10,7 +17,7 @@ export default createPlugin({
 	components: { Icon },
 
 	fonts: {
-		'Material Icons': require('react-native-vector-icons/Fonts/MaterialIcons.ttf'),
-		MaterialIcons: require('react-native-vector-icons/Fonts/MaterialIcons.ttf'),
+		'Material Icons': Font,
+		MaterialIcons: Font,
 	},
 });
