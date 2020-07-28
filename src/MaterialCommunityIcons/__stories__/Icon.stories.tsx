@@ -3,7 +3,7 @@ import React from 'react';
 import storiesOf from '@bluebase/storybook-addon';
 
 storiesOf('Icons', module)
-.add('Mateiral Community Icons', () => (
-  <Icon name="delete" size={100} color="green" />
-))
+	.add('Mateiral Community Icons', () => (
+		<Icon name="delete" size={100} color="green" />
+	))
 ;

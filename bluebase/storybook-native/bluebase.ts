@@ -9,6 +9,6 @@ import deepmerge from 'deepmerge';
  * the common folder, and extend them here.
  */
 const bootOptions: Partial<BootOptions> = {
-}
+};
 
 export default deepmerge(commonBootOptions, bootOptions);
