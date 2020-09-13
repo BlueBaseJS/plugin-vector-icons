@@ -1,5 +1,5 @@
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import MaterialCommunityIcons from 'react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf';
+import MaterialCommunityIcons from '../../Fonts/MaterialCommunityIcons.ttf';
 import { createPlugin } from '@bluebase/core';
 
 export default createPlugin({
