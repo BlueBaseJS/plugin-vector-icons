@@ -1,6 +1,7 @@
 import { BootOptions } from '@bluebase/core';
-import commonBootOptions from '../common/bluebase';
 import deepmerge from 'deepmerge';
+
+import commonBootOptions from '../common/bluebase';
 
 /**
  * Add your platform specific configs here.

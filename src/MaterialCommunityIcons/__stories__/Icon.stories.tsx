@@ -1,6 +1,6 @@
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import React from 'react';
 import storiesOf from '@bluebase/storybook-addon';
+import React from 'react';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 storiesOf('Icons', module)
 	.add('Mateiral Community Icons', () => (

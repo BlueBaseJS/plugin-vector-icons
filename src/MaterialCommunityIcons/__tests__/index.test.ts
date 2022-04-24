@@ -1,4 +1,5 @@
 import { BlueBase } from '@bluebase/core';
+
 import { MaterialCommunityIcons } from '../../';
 
 test('Plugin should be correctly registered', async () => {

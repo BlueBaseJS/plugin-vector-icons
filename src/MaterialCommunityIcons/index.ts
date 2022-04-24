@@ -1,6 +1,7 @@
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import MaterialCommunityIcons from '../../Fonts/MaterialCommunityIcons.ttf';
 import { createPlugin } from '@bluebase/core';
+import MaterialCommunityIcons from 'react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf';
+
+import { Icon } from './Icon';
 
 export default createPlugin({
 	description: 'A BlueBase port of the React Native Vector Icons project',
@@ -8,9 +9,7 @@ export default createPlugin({
 	name: 'Vector Icons - Material Community Icons',
 	version: '1.0.0',
 
-	components: {
-		Icon,
-	},
+	components: { Icon: Icon as any },
 
 	fonts: {
 		// react native

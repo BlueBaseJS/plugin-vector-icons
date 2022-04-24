@@ -1,4 +1,5 @@
 import { BlueBase } from '@bluebase/core';
+
 import { MaterialIcons } from '../../';
 
 test('Plugin should be correctly registered', async () => {
