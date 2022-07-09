@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.0.1...v1.1.0) (2022-07-09)
+
+### Features
+
+*   Icons now follow theme colors as default ([87073cf](https://github.com/BlueBaseJS/plugin-vector-icons/commit/87073cf7d0a62b2d1c25c10b25f02b1fe2a14955))
+
 ## [1.0.1](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.0.0...v1.0.1) (2022-04-25)
 
 ### Bug Fixes
