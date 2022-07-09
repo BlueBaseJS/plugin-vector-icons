@@ -1,7 +1,7 @@
 import { createPlugin } from '@bluebase/core';
 
 import MaterialIcons from '../../Fonts/MaterialIcons.ttf';
-import { Icon } from './Icon';
+import { Icon } from './BlueBaseIcon';
 
 export default createPlugin({
 	description: 'A BlueBase port of the React Native Vector Icons project',
