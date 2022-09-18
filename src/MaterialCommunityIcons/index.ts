@@ -14,6 +14,7 @@ export default createPlugin({
 	fonts: {
 		// react native
 		'Material Design Icons': MaterialCommunityIcons,
+		'material-community': MaterialCommunityIcons,
 
 		// web
 		MaterialCommunityIcons,

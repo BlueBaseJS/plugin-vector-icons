@@ -1,2 +1,2 @@
-const Icon = require('react-native-vector-icons/dist/MaterialCommunityIcons').default;
+const Icon = require('react-native-vector-icons/MaterialCommunityIcons').default;
 export { Icon };
