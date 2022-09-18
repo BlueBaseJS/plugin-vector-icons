@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.1.0...v1.2.0) (2022-09-18)
+
+### Features
+
+*   Added 'material-community' font for native ([308118d](https://github.com/BlueBaseJS/plugin-vector-icons/commit/308118d861b8c4cfbc990061f08a867137b2ded7))
+
 # [1.1.0](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.0.1...v1.1.0) (2022-07-09)
 
 ### Features
