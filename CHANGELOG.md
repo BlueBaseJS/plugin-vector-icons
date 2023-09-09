@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.2.0...v1.3.0) (2023-09-09)
+
+### Features
+
+*   Bumped Library ([8bd4a3b](https://github.com/BlueBaseJS/plugin-vector-icons/commit/8bd4a3bf7a4184661777e51108f580b893610164))
+*   Expo 49 ([5504ae3](https://github.com/BlueBaseJS/plugin-vector-icons/commit/5504ae3b9aaa3963faaa81f86955d46a1bcb7ecb))
+
 # [1.2.0](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.1.0...v1.2.0) (2022-09-18)
 
 ### Features
