@@ -49,7 +49,7 @@
     "build-storybook": "node ./node_modules/@storybook/react/bin/build.js"
   },
   "dependencies": {
-    "react-native-vector-icons": "^9.2.0"
+    "react-native-vector-icons": "^10.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
