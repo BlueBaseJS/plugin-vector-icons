@@ -1,3 +1,9 @@
+## [1.3.2](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.3.1...v1.3.2) (2024-04-04)
+
+### Bug Fixes
+
+*   Fixed CI ([360b60c](https://github.com/BlueBaseJS/plugin-vector-icons/commit/360b60c7cce79265044137428f0eccbc44230258))
+
 ## [1.3.1](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.3.0...v1.3.1) (2024-04-04)
 
 ### Bug Fixes
