@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.3.0...v1.3.1) (2024-04-04)
+
+### Bug Fixes
+
+*   Fixed icon issue on ios ([04ca040](https://github.com/BlueBaseJS/plugin-vector-icons/commit/04ca0407e14b14c5b82167dfce9a7f26edb48ab0))
+
 # [1.3.0](https://github.com/BlueBaseJS/plugin-vector-icons/compare/v1.2.0...v1.3.0) (2023-09-09)
 
 ### Features
